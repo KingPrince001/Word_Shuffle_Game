@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 20px;
+}
+.master-container {
+    border: 3px solid green;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.input-space {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin: 0 70px;
+    border-right: 3px solid green;
+    height:80vh ;
+
+}
+.gameStatus {
+    margin: 50px 0;
+}
+#submit {
+    margin: 50px 0;
+    text-shadow: 4px 4px 4px black;
+}
+header h2, #gameStatus {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    color: greenyellow;
+    text-shadow: 4px 4px 4px purple;
+}
+button {
+    outline: none;
+    border: none;
+    background-color: #2bab0d;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+input {
+    height: 100px;
+    width: 300px;
+    border: 3px solid green;
+    border-radius: 10px;
+    margin: 20px 30px;
+    color: blue;
+}
